@@ -171,6 +171,13 @@ top: 16px;
 }
 
 
-img{
-    width:40px
+.teamPage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
 }
+
+
