@@ -64,7 +64,7 @@ h3{
 
 
 .homePage{
-    /*visibility: hidden;*/
+    visibility: hidden;
     /* width: 100vw; */
     height: 100vh;
     display: flex;
@@ -108,9 +108,9 @@ h3{
 
 
 .btnTeam{
-position: absolute;
-left: 100px;
-top: 16px;
+    position: absolute;
+    left: 100px;
+    top: 16px;
 }
 
 
@@ -172,6 +172,7 @@ top: 16px;
 
 
 .teamPage{
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -181,3 +182,110 @@ top: 16px;
 }
 
 
+.teamPageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 25vw;
+    position: relative;  
+}
+
+
+.teamOsamaImg, .teamZeinImg, .teamSondosImg, .teamAlaaImg{
+    /* justify-content: center;
+    align-items: center; */
+    width: 50%;
+    height: 50%;
+    /*position: absolute;*/
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+
+
+.teamOsamaImg>img{
+    /* position: absolute; */
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.teamAlaaImg>img{
+    /* position: absolute; */
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.teamZeinImg>img{
+    /* position: absolute; */
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.teamSondosImg>img{
+    /* position: absolute; */
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.teamOsama, .teamZein, .teamSondos, .teamAlaa{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: absolute;  
+    border-radius: 20%;
+    border: 1px solid rgb(105, 159, 209);
+    padding: 10px;
+}
+
+.teamOsama{
+    top: 7%;
+    right: 110%; 
+    visibility: hidden;
+
+}
+
+.teamOsamaImg:hover ~ .teamOsama{
+    visibility: visible;
+}
+.teamZeinImg:hover~.teamZein{
+    visibility: visible;
+}
+ .teamSondosImg:hover ~ .teamSondos{
+    visibility: visible;
+}
+ .teamAlaaImg:hover ~ .teamAlaa{
+    visibility: visible;
+} 
+
+.teamZein{
+    top: 3%;
+    left: 110%; 
+    visibility: hidden;
+} 
+
+
+.teamSondos{
+    right: 110%;
+    bottom: 3%; 
+    visibility: hidden; 
+}
+
+.teamAlaa{
+    left: 110%;
+    bottom: 5%; 
+    visibility: hidden; 
+}
