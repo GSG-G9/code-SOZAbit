@@ -93,7 +93,91 @@ h3{
     border: none;
     box-shadow: -2px -2px 5px #f3f3cf,  2px 2px 5px rgb(65, 64, 63);
     transform: rotate(-30deg);
+
 }
+
+
+@media screen and  (max-width: 600px){
+    .btn{
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+
+    
+    }
+
+    .aboutUs{
+        max-height: 700px;
+        overflow-y: scroll;
+    }
+
+    
+    .btnTeam{
+        
+    
+   }
+       
+      html{
+        font-size: .5em;
+    }
+
+
+    .contactInput img{
+        width: 30px;
+        height: 30px;
+    }  
+
+
+    input{
+         text-indent: 10px;
+    }
+   
+
+}
+
+    
+
+
+@media (min-width : 600px){
+    .btn{
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    html{
+        font-size: .7em;
+    }
+
+
+}
+
+@media (min-width: 900px){
+    .btn{
+        width: 50px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    html{
+        font-size: .9em;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .btn{
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+    }
+
+
+    html{
+        font-size: 1em;
+    }
+}
+
 
 a{
     width: 100%;
@@ -113,7 +197,7 @@ a{
 
 .btnTeam{
 position: absolute;
-left: 100px;
+left: 8vw;
 top: 16px;
 }
 
@@ -168,6 +252,7 @@ top: 16px;
     height: 100%;
     background: linear-gradient(180deg, #0F52FF 0%, rgba(15, 82, 255, 0) 102.67%);
     border-radius: 31px;
+   
 }
 
 
