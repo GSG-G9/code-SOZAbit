@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFFF95;
+    /* background-color: #FFFF95; */
 }
 
 
@@ -13,7 +13,8 @@ html{
 
 
 .container{
-    width: 100%;
+    /* overflow: scroll; */
+    /* width: 100vw; */
     height: 100vh;
     position: relative;
     
@@ -33,6 +34,7 @@ html{
     background-color: black;
                             
 }
+
 
 
 img{
@@ -63,6 +65,8 @@ h3{
 
 .homePage{
     /*visibility: hidden;*/
+    /* width: 100vw; */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,24 +77,59 @@ h3{
 
 
 .navBar{
-   
-    height: 10vh;
+    height: auto;
     display: flex;
-    justify-content: flex-start;
-     
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
 }
 
 
-button{
-    width: 60px;
-    height: 60px;
+
+.btn{
+    position: absolute;
+    width: 70.02px;
+    height: 70px;
+    background: rgba(5, 0, 251, 0.53);
     border-radius: 50%;
     border: none;
     box-shadow: -2px -2px 5px #f3f3cf,  2px 2px 5px rgb(65, 64, 63);
-    margin: 10px;
-    background-color: rgb(194, 194, 192);
     transform: rotate(-30deg);
 }
+
+
+.btnAbout{
+    position: absolute;
+    left: 24px;
+    top: 73px;
+}
+
+
+
+.btnTeam{
+position: absolute;
+left: 100px;
+top: 16px;
+}
+
+
+.btnContact{
+    position: absolute;
+    right: 28px;
+    top: 16px;
+    transform: rotate(30deg);
+}
+
+
+.btnContact:focus, .btnAbout:focus, .btnTeam:focus{
+    background: linear-gradient(180deg, rgba(0, 251, 70, 0.65) 0%, rgba(0, 251, 70, 0.325) 100%);
+}
+
+
+/*.btnAbout:hover, .btnTeam:hover, .btnContact:hover{
+
+}*/
 
 
 .aboutUsPage{
