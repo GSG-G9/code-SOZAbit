@@ -8,10 +8,12 @@
 
 html{
     font-size: 15px;
+    scroll-behavior: smooth;
 }
 
 
 .container{
+    width: 100vw;
     height: 100vh;
     position: relative;
     background: linear-gradient(103.58deg, rgba(0, 10, 255, 0.5) 0.26%, rgba(88, 201, 0, 0.5) 100%);
@@ -61,6 +63,7 @@ h3{
 
 .homePage{
     visibility: hidden;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -151,10 +154,8 @@ top: 16px;
 
 
 .image {
-    width: 300px;
-    /* remove above later */
-    height: 19vh;
-    background-color: #ff0000;
+    width:25vh;
+    height: 25vh;
     position: absolute;
     top: -25%;
     left: -10%;
@@ -171,9 +172,9 @@ top: 16px;
 
 
 .aboutUs>p {
-    line-height: 6vh;
-    font-size: 2.5rem;
-    padding:9% 10%
+    line-height: 4.5vh;
+    font-size: 1.5rem;
+    padding:6% 7%
 }
 
 
@@ -185,6 +186,7 @@ top: 16px;
     align-items: center;
     font-family: 'Patrick Hand', cursive;
     font-size: 2em;
+    background: linear-gradient(103.58deg, rgba(0, 10, 255, 0.5) 0.26%, rgba(88, 201, 0, 0.5) 100%);
 }
 
 
@@ -304,8 +306,10 @@ top: 16px;
     justify-content: space-around;
     align-content: center;
     background-color: #FFFF95;
+    width: 100vw;
     height: 100vh;
     position: relative;
+    background: linear-gradient(76.24deg, rgba(0, 10, 255, 0.5) 0%, rgba(88, 201, 0, 0.5) 100%);
 }
 
 
