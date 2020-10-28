@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFFF95;
+    /* background-color: #FFFF95; */
 }
 
 
@@ -13,7 +13,8 @@ html{
 
 
 .container{
-    width: 100%;
+    /* overflow: scroll; */
+    /* width: 100vw; */
     height: 100vh;
     position: relative;
     
@@ -63,6 +64,8 @@ h3{
 
 .homePage{
     /*visibility: hidden;*/
+    /* width: 100vw; */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
