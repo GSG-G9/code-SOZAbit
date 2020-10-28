@@ -1,3 +1,4 @@
+
 .aboutUsPage{
     display: flex;
     justify-content:center;
@@ -41,3 +42,87 @@
     padding:9% 10%
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFF95;
+}
+
+html{
+    font-size: 15px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 188px;
+    height: 188px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+                            
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.teamName{
+    
+    width: 188px;
+    height: 100px;
+    position: relative;
+    top: 66%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+h3{ 
+    width: 188px;
+    height: 100px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 2em;
+}
+
+.homePage{
+    /*visibility: hidden;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+    
+}
+
+.navBar{
+   
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    
+   
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: -2px -2px 5px #f3f3cf,  2px 2px 5px rgb(65, 64, 63);
+    margin: 10px;
+    background-color: rgb(194, 194, 192);
+    transform: rotate(-30deg);
+}
