@@ -13,3 +13,5 @@ later we started working on making the webpage responsive to fit with different 
 
 if we had more time we would have changed the color of the page and added some more animation to our page.
 we would've added a footer and worked more on positioning items.
+
+https://gsg-g9.github.io/code-SOZAbit/
